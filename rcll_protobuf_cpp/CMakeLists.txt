@@ -9,7 +9,6 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rcll_protobuf_msgs REQUIRED)
 find_package(Protobuf REQUIRED)
-message(${rcll_protobuf_msgs_DIR} " is the protobuf dir")
 set(PROTO_FILES
     ${rcll_protobuf_msgs_DIR}/../rcll-protobuf-msgs/AgentTask.proto
     ${rcll_protobuf_msgs_DIR}/../rcll-protobuf-msgs/AttentionMessage.proto
